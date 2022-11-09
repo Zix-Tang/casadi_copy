@@ -1,1 +1,0 @@
-/usr/bin/c++   -fPIC -O3 -DNDEBUG  -rdynamic CMakeFiles/rocket_mx_and_sx.dir/rocket_mx_and_sx.cpp.o  -o ../../../bin/rocket_mx_and_sx   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib:/home/qiaoliang02/casadi/build/lib ../../../lib/libcasadi.so.3.6 -ldl 

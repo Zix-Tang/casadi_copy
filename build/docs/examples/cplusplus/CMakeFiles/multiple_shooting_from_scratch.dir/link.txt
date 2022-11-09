@@ -1,1 +1,0 @@
-/usr/bin/c++   -fPIC -O3 -DNDEBUG  -rdynamic CMakeFiles/multiple_shooting_from_scratch.dir/multiple_shooting_from_scratch.cpp.o  -o ../../../bin/multiple_shooting_from_scratch   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib:/home/qiaoliang02/casadi/build/lib ../../../lib/libcasadi.so.3.6 -ldl 

@@ -232,7 +232,13 @@ else()
   set(WITH_IPOPT_DEF OFF)
   set(WITH_SUPERSCS_DEF OFF)
 endif()
-
+message ("------------------------------")
+message ("------------------------------")
+message ("------------------------------")
+message(STATUS "WITH_IPOPT_DEF value is ${WITH_IPOPT_DEF}")
+message("---------------------------------")
+message("---------------------------------")
+message("---------------------------------")
 #####################################################
 ######################### swig ######################
 #####################################################
@@ -642,6 +648,9 @@ add_feature_info(blocksqp-interface WITH_BLOCKSQP "Interface to the NLP solver b
 
 # IPOPT: A sparse interior point NLP solver with filter line-search
 option(WITH_IPOPT "Compile the interface to IPOPT" ${WITH_IPOPT_DEF})
+message("=======================================")
+message("WITH_IPOPT value is ${WITH_IPOPT}")
+message("=======================================")
 if(WITH_IPOPT)
   find_package(IPOPT REQUIRED)
 endif()

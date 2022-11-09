@@ -1,1 +1,0 @@
-/usr/bin/c++   -fPIC -O3 -DNDEBUG  -rdynamic CMakeFiles/rocket_ipopt.dir/rocket_ipopt.cpp.o  -o ../../../bin/rocket_ipopt   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib:/home/qiaoliang02/casadi/build/lib ../../../lib/libcasadi.so.3.6 -ldl 

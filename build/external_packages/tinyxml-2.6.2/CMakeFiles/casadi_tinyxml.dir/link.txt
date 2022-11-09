@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../lib/libcasadi_tinyxml.a  CMakeFiles/casadi_tinyxml.dir/tinystr.cpp.o CMakeFiles/casadi_tinyxml.dir/tinyxml.cpp.o CMakeFiles/casadi_tinyxml.dir/tinyxmlerror.cpp.o CMakeFiles/casadi_tinyxml.dir/tinyxmlparser.cpp.o
-/usr/bin/ranlib ../../lib/libcasadi_tinyxml.a
